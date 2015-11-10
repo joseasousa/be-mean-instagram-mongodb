@@ -3,18 +3,18 @@ autor: Jose Alves de Sousa Neto
 
 ## Importando os restaurantes
 
-    ```
+    
      mongoimport -d be-mean -c restaurantes --drop  --file /Users/joseasousa/restaurantes.json  
     2015-11-10T00:15:04.022-0300	connected to: localhost
     2015-11-10T00:15:04.023-0300	dropping: be-mean.restaurantes
     2015-11-10T00:15:07.000-0300	[##########..............] be-mean.restaurantes	5.2 MB/11.3 MB (45.5%)
     2015-11-10T00:15:09.003-0300	imported 25359 documents
 
-    ```
+    
 
 ## Contando os restaurantes
 
-    ```
+    
      mongo be-mean
     MongoDB shell version: 3.0.6
     connecting to: be-mean
@@ -26,4 +26,4 @@ autor: Jose Alves de Sousa Neto
     25359
 
 
-    ```
+    
